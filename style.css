@@ -1,0 +1,38 @@
+.lab {
+  margin-left: 40%;
+  border: 2px solid black;
+  width: 20%;
+  height: 2rem;
+}
+#btn {
+  background-color: red;
+  height: 1.2rem;
+  width: 20px;
+}
+/* Meal item container */
+.meal-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.meal-img img {
+  width: 100%;
+  height: auto;
+}
+
+.meal-name {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Not found message */
+.notFound {
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+  font-size: 18px;
+}
